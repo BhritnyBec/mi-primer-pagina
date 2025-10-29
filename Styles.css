@@ -1,0 +1,113 @@
+/* ===== Estilos generales ===== */
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  background-color: #c385d6;
+}
+
+/* ===== Header ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a709a7;
+  padding: 20px 0px;
+  color: rgb(225, 141, 247);
+}
+
+.logo {
+  height: 120px;
+  
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ===== Contenedor principal ===== */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 20px;
+}
+
+/* ===== Bloque con fotos y descripciones ===== */
+.bloque {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* ===== Columna de fotos ===== */
+.columna-fotos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+  align-items: center;
+}
+
+.foto {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ===== Columna de descripciones ===== */
+.columna-descripciones {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+}
+
+.descripcion {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.descripcion h2 {
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.descripcion p {
+  color: #333;
+  line-height: 1.5;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer a {
+  color: #ffdd57;
+  text-decoration: none;
+}
